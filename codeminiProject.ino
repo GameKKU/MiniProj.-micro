@@ -157,6 +157,6 @@ void sendLineNotification(String message) {
   digitalWrite(ledPin, HIGH);   // เปิด LED 
   LINE.notifyPicture("https://www.pngall.com/wp-content/uploads/5/Help-PNG-Free-Download.png");
   LINE.notify(message + "\nDate: " + DateNOW + "\nTime: " + TimeNOW);
-  delay(10000);                   // หน่วงเวลา 10000 มิลลิวินาที
+  delay(10000);   // หน่วงเวลา 10000 มิลลิวินาที
   digitalWrite(ledPin, LOW);   // ปิด LED
 }
